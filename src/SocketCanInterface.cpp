@@ -1,6 +1,8 @@
 /*
 
   Copyright (c) 2015, 2016 Hubert Denkmair
+  Copyright (c) 2023 Hannah Kiekens
+
 
   This file is part of cangaroo.
 
@@ -40,6 +42,7 @@
 #include <linux/can.h>
 #include <linux/can/raw.h>
 #include <linux/can/netlink.h>
+#include <linux/sockios.h>
 #include <netlink/version.h>
 #include <netlink/route/link.h>
 #include <netlink/route/link/can.h>
