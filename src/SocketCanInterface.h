@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include "../CanInterface.h"
+#include "CanInterface.h"
 #include <linux/can/netlink.h>
 
 class SocketCanDriver;

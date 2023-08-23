@@ -22,8 +22,8 @@
 #pragma once
 
 #include <QString>
-#include <core/Backend.h>
-#include <driver/CanDriver.h>
+#include "Backend.h"
+#include "CanDriver.h"
 
 class SocketCanInterface;
 class SetupDialogInterfacePage;

@@ -37,7 +37,7 @@
 #include "CanStatusWindow.h"
 
 #if defined(__linux__)
-#include <driver/SocketCanDriver/SocketCanDriver.h>
+#include "SocketCanDriver.h"
 #else
 #include <driver/PeakCanDriver/PeakCanDriver.h>
 #include <driver/CandleApiDriver/CandleApiDriver.h>

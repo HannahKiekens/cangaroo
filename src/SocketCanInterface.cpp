@@ -21,9 +21,9 @@
 
 #include "SocketCanInterface.h"
 
-#include <core/Backend.h>
-#include <core/MeasurementInterface.h>
-#include <core/CanMessage.h>
+#include "Backend.h"
+#include "MeasurementInterface.h"
+#include "CanMessage.h"
 
 #include <stdio.h>
 #include <unistd.h>
