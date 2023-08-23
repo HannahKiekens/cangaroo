@@ -1,0 +1,109 @@
+
+set(cangaroo_HEADERS
+    AggregatedTraceViewItem.h
+    AggregatedTraceViewModel.h
+    Backend.h
+    BaseTraceViewModel.h
+    CanDb.h
+    CanDbMessage.h
+    CanDbNode.h
+    CanDbSignal.h
+    CanDriver.h
+    CanInterface.h
+    CanListener.h
+    CanMessage.h
+    CanStatusWindow.h
+    CanTiming.h
+    CanTrace.h
+    ConfigurableWidget.h
+    DbcParser.h
+    DbcTokens.h
+    GenericCanSetupPage.h
+    GraphWindow.cpp
+    GraphWindow.h
+    GraphWindow.ui
+    LinearTraceViewModel.h
+    Log.h
+    LogModel.h
+    LogWindow.h
+    mainwindow.h
+    MeasurementInterface.h
+    MeasurementNetwork.h
+    MeasurementSetup.h
+    portable_endian.h
+    SelectCanInterfacesDialog.h
+    SetupDialog.h
+    SetupDialogTreeItem.h
+    SetupDialogTreeModel.h
+    SocketCanDriver.h
+    SocketCanInterface.h
+    TraceViewTypes.h
+    TraceWindow.h
+)
+
+set(cangaroo_SOURCES
+    AggregatedTraceViewItem.cpp
+    AggregatedTraceViewModel.cpp
+    Backend.cpp
+    BaseTraceViewModel.cpp
+    CanDb.cpp
+    CanDbMessage.cpp
+    CanDbNode.cpp
+    CanDbSignal.cpp
+    CanDriver.cpp
+    CanInterface.cpp
+    CanListener.cpp
+    CanMessage.cpp
+    CanStatusWindow.cpp
+    CanTiming.cpp
+    CanTrace.cpp
+    ConfigurableWidget.cpp
+    DbcParser.cpp
+    DbcTokens.cpp
+    GenericCanSetupPage.cpp
+    GraphWindow.cpp
+    LinearTraceViewModel.cpp
+    Log.cpp
+    LogModel.cpp
+    LogWindow.cpp
+    main.cpp
+    mainwindow.cpp
+    MeasurementInterface.cpp
+    MeasurementNetwork.cpp
+    MeasurementSetup.cpp
+    SelectCanInterfacesDialog.cpp
+    SetupDialog.cpp
+    SetupDialogTreeItem.cpp
+    SetupDialogTreeModel.cpp
+    SocketCanDriver.cpp
+    SocketCanInterface.cpp
+    TraceWindow.cpp
+)
+
+qt_wrap_ui(cangaroo_FORMS
+    CanStatusWindow.ui
+    GenericCanSetupPage.ui
+    GraphWindow.ui
+    LogWindow.ui
+    mainwindow.ui
+    SelectCanInterfacesDialog.ui
+    SetupDialog.ui
+    TraceWindow.ui
+)
+
+add_executable(cangaroo
+    cangaroo.qrc
+    ${cangaroo_HEADERS}
+    ${cangaroo_SOURCES}
+    ${cangaroo_FORMS}
+)
+
+target_include_directories(cangaroo PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
+
+target_link_libraries(cangaroo PUBLIC
+    Qt::Core
+    Qt::Widgets
+    Qt::Xml
+    nl-3
+    nl-route-3
+)
