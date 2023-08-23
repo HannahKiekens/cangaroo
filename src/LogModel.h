@@ -24,7 +24,7 @@
 #include <QAbstractItemModel>
 #include <QDateTime>
 #include <QList>
-#include <core/Backend.h>
+#include "Backend.h"
 
 class LogItem {
 public:

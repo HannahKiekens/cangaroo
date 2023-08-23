@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include <core/ConfigurableWidget.h>
+#include "ConfigurableWidget.h"
 #include "TraceViewTypes.h"
 
 namespace Ui {

@@ -21,7 +21,7 @@
 
 #pragma once
 
-#include <core/ConfigurableWidget.h>
+#include "ConfigurableWidget.h"
 
 namespace Ui {
 class CanStatusWindow;

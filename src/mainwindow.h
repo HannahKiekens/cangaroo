@@ -23,7 +23,7 @@
 
 #include <QMainWindow>
 #include <QList>
-#include <core/Backend.h>
+#include "Backend.h"
 
 QT_BEGIN_NAMESPACE
 class QAction;

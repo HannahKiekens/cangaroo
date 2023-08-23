@@ -26,10 +26,10 @@
 #include <QFileDialog>
 #include <QTreeWidget>
 
-#include <core/Backend.h>
-#include <core/MeasurementSetup.h>
-#include <driver/CanInterface.h>
-#include <driver/CanDriver.h>
+#include "Backend.h"
+#include "MeasurementSetup.h"
+#include "CanInterface.h"
+#include "CanDriver.h"
 
 #include "SetupDialogTreeModel.h"
 #include "SetupDialogTreeItem.h"

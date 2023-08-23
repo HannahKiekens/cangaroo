@@ -27,10 +27,10 @@
 #include <QMutex>
 #include <QDateTime>
 #include <QElapsedTimer>
-#include <driver/CanDriver.h>
-#include <core/CanDb.h>
-#include <core/MeasurementSetup.h>
-#include <core/Log.h>
+#include "CanDriver.h"
+#include "CanDb.h"
+#include "MeasurementSetup.h"
+#include "Log.h"
 
 class MeasurementNetwork;
 class CanTrace;

@@ -24,7 +24,7 @@
 
 #include <QDomDocument>
 
-#include <core/Backend.h>
+#include "Backend.h"
 
 GraphWindow::GraphWindow(QWidget *parent, Backend &backend) :
     ConfigurableWidget(parent),

@@ -23,8 +23,8 @@
 #include <QTextStream>
 #include <stdint.h>
 #include <iostream>
-#include <core/Backend.h>
-#include <core/CanDb.h>
+#include "Backend.h"
+#include "CanDb.h"
 
 #include "DbcTokens.h"
 

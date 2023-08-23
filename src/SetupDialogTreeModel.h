@@ -24,8 +24,8 @@
 #include "SetupDialogTreeItem.h"
 
 #include <QAbstractItemModel>
-#include <core/Backend.h>
-#include <core/MeasurementSetup.h>
+#include "Backend.h"
+#include "MeasurementSetup.h"
 
 class SetupDialogTreeModel : public QAbstractItemModel
 {

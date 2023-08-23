@@ -27,8 +27,8 @@
 #include <sys/time.h>
 
 #include "BaseTraceViewModel.h"
-#include <core/CanMessage.h>
-#include <driver/CanInterface.h>
+#include "CanMessage.h"
+#include "CanInterface.h"
 
 #include "AggregatedTraceViewItem.h"
 

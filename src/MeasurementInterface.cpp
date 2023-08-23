@@ -21,9 +21,9 @@
 
 #include "MeasurementInterface.h"
 
-#include <core/Backend.h>
-#include <driver/CanDriver.h>
-#include <driver/CanInterface.h>
+#include "Backend.h"
+#include "CanDriver.h"
+#include "CanInterface.h"
 
 
 MeasurementInterface::MeasurementInterface()

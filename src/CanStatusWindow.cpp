@@ -21,14 +21,15 @@
 
 
 #include "CanStatusWindow.h"
+
 #include "ui_CanStatusWindow.h"
 
 #include <QStringList>
 #include <QTimer>
-#include <core/Backend.h>
-#include <core/MeasurementSetup.h>
-#include <core/MeasurementNetwork.h>
-#include <core/MeasurementInterface.h>
+#include "Backend.h"
+#include "MeasurementSetup.h"
+#include "MeasurementNetwork.h"
+#include "MeasurementInterface.h"
 
 CanStatusWindow::CanStatusWindow(QWidget *parent, Backend &backend) :
     ConfigurableWidget(parent),

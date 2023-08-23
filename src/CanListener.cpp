@@ -23,9 +23,9 @@
 
 #include <QThread>
 
-#include <core/Backend.h>
-#include <core/CanTrace.h>
-#include <core/CanMessage.h>
+#include "Backend.h"
+#include "CanTrace.h"
+#include "CanMessage.h"
 #include "CanInterface.h"
 
 CanListener::CanListener(QObject *parent, Backend &backend, CanInterface &intf)

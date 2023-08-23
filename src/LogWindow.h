@@ -21,8 +21,8 @@
 
 #pragma once
 
-#include <core/ConfigurableWidget.h>
-#include <core/Backend.h>
+#include "ConfigurableWidget.h"
+#include "Backend.h"
 
 namespace Ui {
 class LogWindow;

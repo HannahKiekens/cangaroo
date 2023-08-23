@@ -22,8 +22,8 @@
 #pragma once
 
 #include <QObject>
-#include <driver/CanDriver.h>
-#include <driver/CanInterface.h>
+#include "CanDriver.h"
+#include "CanInterface.h"
 
 class QThread;
 class CanMessage;

@@ -23,7 +23,7 @@
 #include <QFileInfo>
 #include <QDomDocument>
 
-#include <core/Backend.h>
+#include "Backend.h"
 
 CanDb::CanDb()
 {

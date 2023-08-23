@@ -28,13 +28,13 @@
 #include <QCloseEvent>
 #include <QDomDocument>
 
-#include <core/MeasurementSetup.h>
-#include <core/CanTrace.h>
-#include <window/TraceWindow/TraceWindow.h>
-#include <window/SetupDialog/SetupDialog.h>
-#include <window/LogWindow/LogWindow.h>
-#include <window/GraphWindow/GraphWindow.h>
-#include <window/CanStatusWindow/CanStatusWindow.h>
+#include "MeasurementSetup.h"
+#include "CanTrace.h"
+#include "TraceWindow.h"
+#include "SetupDialog.h"
+#include "LogWindow.h"
+#include "GraphWindow.h"
+#include "CanStatusWindow.h"
 
 #if defined(__linux__)
 #include <driver/SocketCanDriver/SocketCanDriver.h>
